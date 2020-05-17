@@ -110,4 +110,18 @@
     <string name="designer_developer_text">设计和开发</string>
     <string name="text_rate_application">评价应用</string>
     <string name="text_reddit">Reddit 组</string>
+    <string name="pref_face_wake_summary">当检测到人脸时点亮屏幕。</string>
+    <string name="pref_button_camera_test">测试摄像头设置。</string>
+    <string name="pref_camera_motion_time_summary">亮度设置后到屏幕变暗前的总计时长（需要大于 0 的值）。</string>
+    <string name="toast_face_detected">检测到人脸。</string>
+    <string name="preference_title_notifications">通知</string>
+    <string name="preference_title_mqtt_notifications">MQTT 通知</string>
+    <string name="pref_mqtt_settings_category">TTS 通知</string>
+    <string name="preference_tts_voice">TTS 声音</string>
+    <string name="preference_tts">TTS 通知</string>
+    <string name="dialog_message_ssl_generic">SSL 证书错误。</string>
+    <string name="pref_mjpeg_streaming_title">MJPEG 流</string>
+    <string name="toast_motion_detected">检测到运动！</string>
+    <string name="preference_title_screensaver_dim">屏幕变暗…</string>
+    <string name="text_wallpanel_description">在设置中配置程序为不同的“仪表盘链接”。仪表盘可以为任意网页或</string>
 </resources>

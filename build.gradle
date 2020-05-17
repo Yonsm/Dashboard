@@ -61,3 +61,4 @@ versions.dagger = "2.16"
 versions.archVersion = '1.1.1'
 versions.archRoomVersion = '1.1.0'
 ext.versions = versions
+
