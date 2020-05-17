@@ -114,7 +114,7 @@
     <string name="pref_motion_leniency_description">The maximum tolerance of the difference between images. A lower tolerance means motion is more sensitive (1 – 20).</string>
     <string name="pref_motion_luma_description">Minimum brightness level to detect motion. No motion will be detected if brightness falls below this value (1 – 1000).</string>
     <string name="pref_mjpeg_streaming_description">Use the device camera as a live MJPEG stream. Connect to the stream using the device IP address, HTTP Port, and end point: http://%s:2971/camera/stream</string>
-    <string name="pref_mjpeg_streaming_title">MJPEG Streaming</string>
+    <string name="pref_mjpeg_streaming_title">MJPEG 流</string>
     <string name="pref_http_description">Control the application over HTTP using REST API calls. To find out which commands work with, review the help documentation.</string>
     <string name="pref_launchurl_summary">Enter the fully qualified URL for your home automation dashboard or path to file on the local device (requires storage access permission).</string>
     <string name="pref_show_browser_activity_summary">显示浏览器加载进度</string>
@@ -161,7 +161,7 @@
     <string name="pref_user_agent_title">用户代理字符串（可选）</string>
     <string name="pref_user_agent_summary">Set the browser user agent stream if needed to load the dashboard (leave blank otherwise)</string>
     <string name="pref_camera_fps_title">摄像头帧率</string>
-    <string name="pref_camera_fps_summary">Set the camera speed, use lower value for older values if you see a dark image during testing (default is 15).</string>
+    <string name="pref_camera_fps_summary">设置摄像头速度，如果在测试过程中看到黑图像，请调整为更低的值（默认为 15）</string>
     <string name="pref_motion_reset_title">Motion Reset Time</string>
     <string name="pref_motion_reset_description">The time (in seconds) before resetting the motion detector.</string>
     <string name="text_front">Front</string>
@@ -204,15 +204,15 @@
     <string name="preference_summary_dim_screensaver" formatted="false">当屏保激活时变暗 %1$s％（需屏幕亮度权限）</string>
 
     <string name="preference_camera_flip_title">旋转摄像头</string>
-    <string name="preference_camera_flip_summary">Depending on your camera, you may need to rotate or flip the camera. Currently %1$s.</string>
-    <string name="error_no_web_browser">You have no application to support opening web links.</string>
+    <string name="preference_camera_flip_summary">根据实际情况，您可能需要旋转或翻转摄像头（当前设置为 %1$s）</string>
+    <string name="error_no_web_browser">您没有可以打开网页链接的应用程序。</string>
     <string name="toast_connect_retry">重试连接中…</string>
 
     <string name="shortcut_settings_disabled_message">Shortcut disabled. You can enable in App settings</string>
     <string name="shortcut_settings_shortlabel">设置</string>
     <string name="shortcut_settings_longlabel">打开物联仪表设置</string>
     <string name="shortcut_settings_id">shortcutForSettings</string>
-    <string name="pref_summary_gecko">Use FireFox Gecko as the default browser (experimental).</string>
+    <string name="pref_summary_gecko">使用 FireFox Gecko 作为默认浏览器（体验）</string>
     <string name="pref_title_gecko">使用 FireFox 浏览器</string>
     <string name="toast_screen_brightness_captured">Your screen brightness level has been saved!</string>
     <string name="pref_button_brightness_summary">设置当前设备亮度为屏幕变暗后的恢复亮度</string>
