@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <string-array name="browser_type_names">
+        <item>"Automatic Selection (Recommended)"</item>
+        <item>"Android WebView"</item>
+        <item>"Crosswalk Project"</item>
+    </string-array>
+
+    <string-array name="browser_type_values">
+        <item>"Auto"</item>
+        <item>"Native"</item>
+        <item>"Legacy"</item>
+    </string-array>
+
     <string name="app_name">物联仪表盘</string>
     <string name="wallpanel_service_notification_title">物联仪表盘</string>
     <string name="wallpanel_service_notification_message">物联仪表盘正在运行中...</string>
@@ -26,7 +39,7 @@
     <string name="title_setting_camera_motionontime">屏幕变暗延迟（秒）</string>
     <string name="title_setting_camera_faceenabled">启用人脸检测</string>
     <string name="title_setting_camera_facewake">唤醒屏幕</string>
-    <string name="title_setting_camera_qrcodeenabled">启用二维码阅读器</string>
+    <string name="title_setting_camera_qrcodeenabled">启用二维码扫描器</string>
     <string name="title_setting_camera_streaming">摄像头流</string>
     <string name="title_setting_http_restenabled">REST API</string>
     <string name="title_setting_http_port">HTTP 监听端口</string>
@@ -51,77 +64,186 @@
     <string name="title_setting_sensors_pressure">压力</string>
     <string name="title_setting_sensors_humidity">温度</string>
     <string name="title_setting_ignore_ssl_errors">忽略 SSL 错误</string>
+
     <string name="text_seconds">%1$s 秒</string>
     <string name="title_camera_test">摄像头测试</string>
     <string name="title_welcome_to_wallpanel">欢迎使用物联仪表盘</string>
+    <string name="text_wallpanel_description">在设置中配置程序为不同的“仪表盘链接”。仪表盘可以为任意网页或智能家居网站。\n\n当您重启仪表盘之后，您可以使用设备的返回功能回到设置。</string>
     <string name="button_launch_settings">启动设置</string>
     <string name="toast_camera_permission_granted">已获得摄像头权限。</string>
     <string name="toast_camera_permission_denied">未获得摄像头权限。</string>
     <string name="dialog_write_permissions_title">需要权限</string>
     <string name="dialog_write_permissions_description">您要获得修改系统屏幕亮度设置的权限吗？</string>
     <string name="pref_title_screen_brightness">屏幕亮度</string>
+    <string name="pref_description_screen_brightness">给程序权限以便控制设备的亮度。更新设备亮度，然后点击按钮保存或更新数值。</string>
+
+    <string name="toast_write_permissions_denied">写入设置权限被拒绝…</string>
+    <string name="toast_write_permissions_granted">写入设置权限已获取…</string>
     <string name="pref_http_settings_title">HTTP 设置</string>
     <string name="pref_motion_detection_title">运动检测</string>
     <string name="pref_motion_adjustments_title">运动调整</string>
     <string name="title_sensor_settings">传感器设置</string>
     <string name="title_enable_sensor_data">启用传感器发布</string>
+    <string name="summary_enable_sensor_data">发布可用的设备传感器数据到 MQTT</string>
     <string name="menu_title_help">帮助</string>
     <string name="menu_title_dashboard">仪表盘</string>
-    <string name="summary_enable_sensor_data">发布可用的设备传感器数据到 MQTT</string>
+
     <string name="title_hardware_acceleration">硬件加速</string>
-    <string name="preference_title_screen_saver_settings">屏幕保护</string>
-    <string name="preference_title_screen">显示器设置</string>
-    <string name="pref_browser_refresh_title">浏览器刷新</string>
-    <string name="toast_empty_url">链接为空</string>
-    <string name="button_cancel">取消</string>
-    <string name="button_continue">继续</string>
-    <string name="dialog_title_ssl_error">SSL 证书错误</string>
-    <string name="pref_title_battery">电池</string>
-    <string name="text_back">返回</string>
-    <string name="pref_camera_fps_title">摄像头帧率</string>
-    <string name="pref_user_agent_title">用户代理（可选）</string>
-    <string name="text_camera_back">返回</string>
-    <string name="text_android_channel_description">物联仪表盘运行中…</string>
-    <string name="text_android_channel_name">物联仪表盘运行中…</string>
-    <string name="pref_camera_title">摄像头</string>
-    <string name="pref_camera_streaming_title">摄像头流</string>
-    <string name="pref_camera_brightness_title">摄像头激活亮度</string>
-    <string name="pref_camera_test_button_title">摄像头测试</string>
-    <string name="pref_camera_test_title">摄像头测试</string>
-    <string name="pref_rest_api_title">REST API 设置</string>
-    <string name="toast_qr_code_read">二维码扫码…</string>
-    <string name="pref_button_qrcode_reader">二维码扫描器</string>
-    <string name="pref_button_motion_detection">运动检测</string>
-    <string name="pref_button_face_detection">人脸检测</string>
-    <string name="pref_enable_face_detection_summary">启用人脸检测</string>
-    <string name="pref_face_detection_title">人脸检测</string>
-    <string name="pref_application_settings_title">程序设置</string>
-    <string name="pref_additional_settings_title">额外设置</string>
-    <string name="pref_zoom_level_summary">浏览器缩放级别（体验）</string>
-    <string name="pref_mqtt_settings_title">MQTT 流</string>
-    <string name="pref_about_title">关于</string>
-    <string name="text_github_code">GitHub 代码</string>
-    <string name="text_license_information">许可信息</string>
-    <string name="text_feedback">反馈</string>
     <string name="summary_hardware_acceleration">在某些设备上可用于加速网页和摄像头渲染</string>
+
     <string name="mail_to_subject_text">物联仪表盘反馈</string>
     <string name="mail_subject_text">发送反馈：</string>
+
     <string name="thanks_mister_title">感谢，先生！</string>
     <string name="designer_developer_text">设计和开发</string>
-    <string name="text_rate_application">评价应用</string>
-    <string name="text_reddit">Reddit 组</string>
+    <string name="company_url_text">thanksmister.com</string>
+    <string name="company_email">mister@thanksmister.com</string>
+    <string name="text_feedback">反馈</string>
+    <string name="text_rate_application">评分</string>
+    <string name="text_reddit">Reddit 小组</string>
+    <string name="text_license_information">许可信息</string>
+    <string name="text_github_code">GitHub 代码</string>
+    <string name="pref_about_title">关于</string>
+    <string name="pref_brightness_button">Capture Current Brightness Value</string>
+    <string name="pref_sensor_list_summary">Below is a list of sensor data available on this device to be published as MQTT data.</string>
+    <string name="pref_qr_code_summary">When active, will scan QR codes and publish the scanned code over MQTT.</string>
+    <string name="pref_mqtt_settings_title">MQTT Settings</string>
+    <string name="pref_motion_detection_summary">Detects motion using the device\'s camera.</string>
+    <string name="pref_motion_wake_summary">Wakes the device screen when motion detected.</string>
+    <string name="pref_camera_bright_summary">Increases the screen brightness when motion or face detected.</string>
+    <string name="pref_motion_leniency_description">The maximum tolerance of the difference between images. A lower tolerance means motion is more sensitive (1 – 20).</string>
+    <string name="pref_motion_luma_description">Minimum brightness level to detect motion. No motion will be detected if brightness falls below this value (1 – 1000).</string>
+    <string name="pref_mjpeg_streaming_description">Use the device camera as a live MJPEG stream. Connect to the stream using the device IP address, HTTP Port, and end point: http://%s:2971/camera/stream</string>
+    <string name="pref_mjpeg_streaming_title">MJPEG Streaming</string>
+    <string name="pref_http_description">Control the application over HTTP using REST API calls. To find out which commands work with, review the help documentation.</string>
+    <string name="pref_launchurl_summary">Enter the fully qualified URL for your home automation dashboard or path to file on the local device (requires storage access permission).</string>
+    <string name="pref_show_browser_activity_summary">Display browser loading progress.</string>
+    <string name="pref_prevent_sleep_summary">When active, keeps the screen on.</string>
+    <string name="pref_start_boot_summary">Will start the application upon system boot.</string>
+    <string name="pref_zoom_level_summary">Zooms the browser level (experimental).</string>
+    <string name="pref_additional_settings_title">Additional Settings</string>
+    <string name="pref_application_settings_title">Application Settings</string>
+    <string name="pref_face_detection_title">Face Detection</string>
+    <string name="pref_enable_face_detection_summary">Enables face detection.</string>
     <string name="pref_face_wake_summary">当检测到人脸时点亮屏幕。</string>
-    <string name="pref_button_camera_test">测试摄像头设置。</string>
+    <string name="pref_button_motion_detection">Motion Detection</string>
+    <string name="pref_button_face_detection">Face Detection</string>
+    <string name="pref_button_qrcode_reader">QR Code Reader</string>
+    <string name="pref_button_camera_test">Test the camera settings.</string>
+    <string name="toast_qr_code_read">QR Code Read....</string>
     <string name="pref_camera_motion_time_summary">亮度设置后到屏幕变暗前的总计时长（需要大于 0 的值）。</string>
-    <string name="toast_face_detected">检测到人脸。</string>
-    <string name="preference_title_notifications">通知</string>
-    <string name="preference_title_mqtt_notifications">MQTT 通知</string>
-    <string name="pref_mqtt_settings_category">TTS 通知</string>
-    <string name="preference_tts_voice">TTS 声音</string>
-    <string name="preference_tts">TTS 通知</string>
-    <string name="dialog_message_ssl_generic">SSL 证书错误。</string>
-    <string name="pref_mjpeg_streaming_title">MJPEG 流</string>
-    <string name="toast_motion_detected">检测到运动！</string>
-    <string name="preference_title_screensaver_dim">屏幕变暗…</string>
-    <string name="text_wallpanel_description">在设置中配置程序为不同的“仪表盘链接”。仪表盘可以为任意网页或</string>
+    <string name="pref_rest_api_title">REST API Settings</string>
+    <string name="pref_camera_test_title">Camera Test</string>
+    <string name="pref_camera_test_button_title">Camera Test</string>
+    <string name="pref_camera_title">Camera</string>
+    <string name="pref_camera_brightness_title">Camera Activated Brightness</string>
+    <string name="pref_camera_streaming_title">Camera Streaming</string>
+    <string name="toast_too_dark_motion">Too dark for motion detection</string>
+    <string name="toast_motion_detected">Motion Detected!</string>
+    <string name="toast_face_detected">Face Detected!</string>
+    <string name="toast_qrcode_read">QR Code %1$s</string>
+    <string name="preference_title_notifications">Notifications</string>
+    <string name="preference_title_mqtt_notifications">MQTT Notifications</string>
+    <string name="preference_summary_mqtt_notifications">Speak notifications from an MQTT message.</string>
+    <string name="pref_mqtt_settings_category">TTS Notifications</string>
+    <string name="preference_tts_voice">TTS Voice</string>
+    <string name="preference_tts">TTS Notifications</string>
+    <string name="preference_summary_tts">Use Text-To-Speech to speak the payload value of an MQTT message.</string>
+    <string name="pref_ignore_ssl_errors_summary">Do not show a warning in case of a SSL error.</string>
+
+    <string name="error_mqtt_connection">The MQTT client connection wasn\'t established or was closed unexpectedly. Will try to reconnect.</string>
+    <string name="error_mqtt_subscription">Couldn\'t subscribe to the MQTT topics, check the MQTT broker settings or your connection.</string>
+    <string name="text_android_channel_name">WallPanel Running</string>
+    <string name="text_android_channel_description">WallPanel Running…</string>
+    <string name="text_camera_front">Front</string>
+    <string name="text_camera_back">Back</string>
+    <string name="toast_camera_source_error">Could not start camera source, you may want to try again.</string>
+    <string name="pref_user_agent_title">User Agent String (Optional)</string>
+    <string name="pref_user_agent_summary">Set the browser user agent stream if needed to load the dashboard (leave blank otherwise)</string>
+    <string name="pref_camera_fps_title">Camera FPS</string>
+    <string name="pref_camera_fps_summary">Set the camera speed, use lower value for older values if you see a dark image during testing (default is 15).</string>
+    <string name="pref_motion_reset_title">Motion Reset Time</string>
+    <string name="pref_motion_reset_description">The time (in seconds) before resetting the motion detector.</string>
+    <string name="text_front">Front</string>
+    <string name="text_back">Back</string>
+    <string name="text_camera_pattern">{0}: {1} Camera {3}x{4} {2}º</string>
+
+    <string name="pref_title_battery">Battery</string>
+    <string name="pref_summary_battery">Battery Level, USB Plugged, AC Plugged, Charging</string>
+    <string name="text_loading_percent">Loading %1$s%% %2$s</string>
+    <string name="dialog_no_camera_permissions">This feature requires the camera permissions. Go to the device settings, then turn on permissions for this application.</string>
+    <string name="toast_storage_granted">Storage permissions granted…</string>
+    <string name="toast_storage_denied">Storage permissions denied…</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_continue">Continue</string>
+    <string name="dialog_title_ssl_error">SSL Certificate Error</string>
+    <string name="dialog_message_ssl_continue">Do you want to continue anyway?</string>
+    <string name="dialog_message_ssl_not_yet_valid">The certificate is not yet valid.</string>
+    <string name="dialog_message_ssl_mismatch">The certificate Hostname is mismatched.</string>
+    <string name="dialog_message_ssl_expired">The certificate has expired.</string>
+    <string name="dialog_message_ssl_untrusted">The certificate authority is not trusted.</string>
+    <string name="dialog_message_ssl_generic">SSL certificate error.</string>
+    <string name="dialog_missing_webview_warning">This device does not have the WebView component installed, please install the component from the Google Play store.</string>
+    <string name="error_missing_vision_lib">Missing appropriate libraries to process Face detection or Barcode reading. These features may not work on this device.</string>
+    <string name="toast_empty_url">Url is empty…</string>
+    <string name="pref_browser_refresh_summary">When active, allows you to pull down on the browser window to refresh the page.</string>
+    <string name="pref_browser_refresh_title">Browser Refresh</string>
+    <string name="error_mqtt_exception">There was an error initializing the MQTT client, please check your settings.</string>
+
+    <string name="preference_title_screen">Display Settings</string>
+    <string name="preference_title_screen_saver_settings">Screensaver</string>
+    <string name="preference_summary_screen_saver_settings">When active, uses a built-in clock screen saver.</string>
+    <string name="preference_title_screen_saver">Clock Screen Saver</string>
+    <string name="preference_summary_screen_saver_settings_wallpaper">When active, uses unsplash.it to get random wallpapers</string>
+    <string name="preference_title_screen_saver_wallpaper">Wallpaper Screen Saver</string>
+
+    <string name="preference_title_inactivity">Start screensaver after…</string>
+    <string name="preference_title_screensaver_dim">Dim screen…</string>
+    <string name="preference_summary_inactivity_seconds">After %1$s seconds of inactivity screensaver is active.</string>
+    <string name="preference_summary_inactivity_minutes">After %1$s minute(s) of inactivity screensaver is active.</string>
+    <string name="preference_summary_dim_screensaver" formatted="false">By %1$s percent when screensaver is active (requires screen brightness permission).</string>
+
+    <string name="preference_camera_flip_title">Rotate Camera</string>
+    <string name="preference_camera_flip_summary">Depending on your camera, you may need to rotate or flip the camera. Currently %1$s.</string>
+    <string name="error_no_web_browser">You have no application to support opening web links.</string>
+    <string name="toast_connect_retry">Retrying to connect…</string>
+
+    <string name="shortcut_settings_disabled_message">Shortcut disabled. You can enable in App settings</string>
+    <string name="shortcut_settings_shortlabel">Settings</string>
+    <string name="shortcut_settings_longlabel">Open Wallpanel settings</string>
+    <string name="shortcut_settings_id">shortcutForSettings</string>
+    <string name="pref_summary_gecko">Use FireFox Gecko as the default browser (experimental).</string>
+    <string name="pref_title_gecko">Use FireFox Browser</string>
+    <string name="toast_screen_brightness_captured">Your screen brightness level has been saved!</string>
+    <string name="pref_button_brightness_summary">Click to update and save the currently set device brightness as the value to return to after dimming.</string>
+
+    <string-array name="flip_directions">
+        <item>无</item>
+        <item>向左旋转</item>
+        <item>向左旋转</item>
+        <item>垂直翻转</item>
+    </string-array>
+
+    <string-array name="inactivity_times">
+        <item>15 秒</item>
+        <item>30 秒</item>
+        <item>1 分钟</item>
+        <item>2 分钟</item>
+        <item>3 分钟</item>
+        <item>5 分钟</item>
+        <item>10 分钟</item>
+        <item>30 分钟</item>
+    </string-array>
+
+    <string-array name="inactivity_values">
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>180000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>1800000</item>
+    </string-array>
+
 </resources>
