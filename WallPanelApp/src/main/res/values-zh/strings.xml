@@ -117,10 +117,10 @@
     <string name="pref_mjpeg_streaming_title">MJPEG Streaming</string>
     <string name="pref_http_description">Control the application over HTTP using REST API calls. To find out which commands work with, review the help documentation.</string>
     <string name="pref_launchurl_summary">Enter the fully qualified URL for your home automation dashboard or path to file on the local device (requires storage access permission).</string>
-    <string name="pref_show_browser_activity_summary">Display browser loading progress.</string>
-    <string name="pref_prevent_sleep_summary">When active, keeps the screen on.</string>
-    <string name="pref_start_boot_summary">Will start the application upon system boot.</string>
-    <string name="pref_zoom_level_summary">Zooms the browser level (experimental).</string>
+    <string name="pref_show_browser_activity_summary">显示浏览器加载进度。</string>
+    <string name="pref_prevent_sleep_summary">当启用时，屏幕将保持常亮。</string>
+    <string name="pref_start_boot_summary">系统启动后自动打开程序。</string>
+    <string name="pref_zoom_level_summary">浏览器缩放级别（体验）。</string>
     <string name="pref_additional_settings_title">额外设置</string>
     <string name="pref_application_settings_title">程序设置</string>
     <string name="pref_face_detection_title">人脸识别</string>
@@ -153,12 +153,12 @@
 
     <string name="error_mqtt_connection">The MQTT client connection wasn\'t established or was closed unexpectedly. Will try to reconnect.</string>
     <string name="error_mqtt_subscription">Couldn\'t subscribe to the MQTT topics, check the MQTT broker settings or your connection.</string>
-    <string name="text_android_channel_name">WallPanel Running</string>
-    <string name="text_android_channel_description">WallPanel Running…</string>
+    <string name="text_android_channel_name">物联仪表盘运行中</string>
+    <string name="text_android_channel_description">物联仪表盘运行中…</string>
     <string name="text_camera_front">前置</string>
     <string name="text_camera_back">后置</string>
     <string name="toast_camera_source_error">Could not start camera source, you may want to try again.</string>
-    <string name="pref_user_agent_title">User Agent String (Optional)</string>
+    <string name="pref_user_agent_title">用户代理字符串（可选）</string>
     <string name="pref_user_agent_summary">Set the browser user agent stream if needed to load the dashboard (leave blank otherwise)</string>
     <string name="pref_camera_fps_title">摄像头帧率</string>
     <string name="pref_camera_fps_summary">Set the camera speed, use lower value for older values if you see a dark image during testing (default is 15).</string>
@@ -186,7 +186,7 @@
     <string name="dialog_missing_webview_warning">This device does not have the WebView component installed, please install the component from the Google Play store.</string>
     <string name="error_missing_vision_lib">Missing appropriate libraries to process Face detection or Barcode reading. These features may not work on this device.</string>
     <string name="toast_empty_url">Url is empty…</string>
-    <string name="pref_browser_refresh_summary">When active, allows you to pull down on the browser window to refresh the page.</string>
+    <string name="pref_browser_refresh_summary">当启用时，允许你下拉浏览器窗口来刷新页面。</string>
     <string name="pref_browser_refresh_title">浏览器刷新</string>
     <string name="error_mqtt_exception">There was an error initializing the MQTT client, please check your settings.</string>
 
@@ -194,14 +194,14 @@
     <string name="preference_title_screen_saver_settings">屏幕保护</string>
     <string name="preference_summary_screen_saver_settings">When active, uses a built-in clock screen saver.</string>
     <string name="preference_title_screen_saver">时钟屏幕保护</string>
-    <string name="preference_summary_screen_saver_settings_wallpaper">When active, uses unsplash.it to get random wallpapers</string>
+    <string name="preference_summary_screen_saver_settings_wallpaper">当启用时，使用 unsplash.it 来获取随机墙纸</string>
     <string name="preference_title_screen_saver_wallpaper">物联仪表盘屏幕保护</string>
 
     <string name="preference_title_inactivity">开始屏幕保护于…</string>
     <string name="preference_title_screensaver_dim">屏幕变暗…</string>
-    <string name="preference_summary_inactivity_seconds">After %1$s seconds of inactivity screensaver is active.</string>
-    <string name="preference_summary_inactivity_minutes">After %1$s minute(s) of inactivity screensaver is active.</string>
-    <string name="preference_summary_dim_screensaver" formatted="false">By %1$s percent when screensaver is active (requires screen brightness permission).</string>
+    <string name="preference_summary_inactivity_seconds">不活动的屏幕保护激活后 %1$s 秒。</string>
+    <string name="preference_summary_inactivity_minutes">不活动的屏幕保护激活后 %1$s 分钟。</string>
+    <string name="preference_summary_dim_screensaver" formatted="false">当屏幕保护激活时变暗 %1$s%（需要屏幕亮度权限）。</string>
 
     <string name="preference_camera_flip_title">旋转摄像头</string>
     <string name="preference_camera_flip_summary">Depending on your camera, you may need to rotate or flip the camera. Currently %1$s.</string>
