@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "392982096172",
+    "firebase_url": "https://dashboard-6005d.firebaseio.com",
+    "project_id": "dashboard-6005d",
+    "storage_bucket": "dashboard-6005d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392982096172:android:26885ca35ffabe4921a489",
+        "android_client_info": {
+          "package_name": "com.thanksmister.iot.wallpanel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392982096172-3s3e7vqbrgqnblrkuavnche1fmv7qrds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5TPvJFITSwkzvZcDzahQkBdjErXM1fIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392982096172-3s3e7vqbrgqnblrkuavnche1fmv7qrds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392982096172:android:d21ab7a7118b90ae21a489",
+        "android_client_info": {
+          "package_name": "net.yonsm.dashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392982096172-3s3e7vqbrgqnblrkuavnche1fmv7qrds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5TPvJFITSwkzvZcDzahQkBdjErXM1fIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392982096172-3s3e7vqbrgqnblrkuavnche1fmv7qrds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
