@@ -212,7 +212,7 @@ abstract class BrowserActivity : DaggerAppCompatActivity() {
     }
 
     override fun dispatchKeyEvent(event: KeyEvent): Boolean {
-        if (event.keyCode == KeyEvent.KEYCODE_BACK) {
+        if (event.keyCode == KeyEvent.KEYCODE_BACK && event.action == KeyEvent.ACTION_DOWN) {
             Timber.d("dispatchKeyEvent")
             window.clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
             startActivity(Intent(this@BrowserActivity, SettingsActivity::class.java))
