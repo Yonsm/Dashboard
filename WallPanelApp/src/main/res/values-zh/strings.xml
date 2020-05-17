@@ -89,7 +89,7 @@
     <string name="menu_title_dashboard">仪表盘</string>
 
     <string name="title_hardware_acceleration">硬件加速</string>
-    <string name="summary_hardware_acceleration">在某些设备上可用于加速网页和摄像头渲染</string>
+    <string name="summary_hardware_acceleration">在某些设备上加速网页和摄像头渲染</string>
 
     <string name="mail_to_subject_text">物联仪表反馈</string>
     <string name="mail_subject_text">发送反馈：</string>
@@ -194,14 +194,14 @@
     <string name="preference_title_screen_saver_settings">屏幕保护</string>
     <string name="preference_summary_screen_saver_settings">启用时，使用内置时钟屏保</string>
     <string name="preference_title_screen_saver">时钟屏保</string>
-    <string name="preference_summary_screen_saver_settings_wallpaper">启用时，使用 unsplash.it 来获取随机墙纸</string>
+    <string name="preference_summary_screen_saver_settings_wallpaper">启用时，用 unsplash.it 获取随机墙纸</string>
     <string name="preference_title_screen_saver_wallpaper">物联仪表屏保</string>
 
     <string name="preference_title_inactivity">屏幕保护</string>
     <string name="preference_title_screensaver_dim">屏幕变暗</string>
-    <string name="preference_summary_inactivity_seconds">不活动的屏保激活后 %1$s 秒。</string>
-    <string name="preference_summary_inactivity_minutes">不活动的屏保激活后 %1$s 分钟。</string>
-    <string name="preference_summary_dim_screensaver" formatted="false">当屏保激活时变暗百分之 %1$s（需要屏幕亮度权限）。</string>
+    <string name="preference_summary_inactivity_seconds">闲置 %1$s 秒后激活</string>
+    <string name="preference_summary_inactivity_minutes">闲置 %1$s 分钟后激活</string>
+    <string name="preference_summary_dim_screensaver" formatted="false">当屏保激活时变暗 %1$s％（需屏幕亮度权限）</string>
 
     <string name="preference_camera_flip_title">旋转摄像头</string>
     <string name="preference_camera_flip_summary">Depending on your camera, you may need to rotate or flip the camera. Currently %1$s.</string>
@@ -215,7 +215,7 @@
     <string name="pref_summary_gecko">Use FireFox Gecko as the default browser (experimental).</string>
     <string name="pref_title_gecko">使用 FireFox 浏览器</string>
     <string name="toast_screen_brightness_captured">Your screen brightness level has been saved!</string>
-    <string name="pref_button_brightness_summary">点击以便更新个保存设置当前设备亮度为屏幕变暗后的恢复值</string>
+    <string name="pref_button_brightness_summary">设置当前设备亮度为屏幕变暗后的恢复亮度</string>
 
     <string-array name="flip_directions">
         <item>无</item>
