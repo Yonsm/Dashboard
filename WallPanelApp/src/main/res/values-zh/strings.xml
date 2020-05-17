@@ -13,9 +13,9 @@
         <item>"传统"</item>
     </string-array>
 
-    <string name="app_name">物联仪表盘</string>
-    <string name="wallpanel_service_notification_title">物联仪表盘</string>
-    <string name="wallpanel_service_notification_message">物联仪表盘正在运行中...</string>
+    <string name="app_name">物联仪表</string>
+    <string name="wallpanel_service_notification_title">物联仪表</string>
+    <string name="wallpanel_service_notification_message">物联仪表正在运行中...</string>
     <string name="title_settings">设置</string>
     <string name="title_camera_settings">摄像头设置</string>
     <string name="title_mqtt_settings">MQTT 设置</string>
@@ -67,7 +67,7 @@
 
     <string name="text_seconds">%1$s 秒</string>
     <string name="title_camera_test">摄像头测试</string>
-    <string name="title_welcome_to_wallpanel">欢迎使用物联仪表盘</string>
+    <string name="title_welcome_to_wallpanel">欢迎使用物联仪表</string>
     <string name="text_wallpanel_description">在设置中配置程序为不同的“仪表盘链接”。仪表盘可以为任意网页或智能家居网站。\n\n当你重启仪表盘之后，你可以使用设备的返回功能回到设置。</string>
     <string name="button_launch_settings">启动设置</string>
     <string name="toast_camera_permission_granted">已获得摄像头权限。</string>
@@ -75,7 +75,7 @@
     <string name="dialog_write_permissions_title">需要权限</string>
     <string name="dialog_write_permissions_description">你要获得修改系统屏幕亮度设置的权限吗？</string>
     <string name="pref_title_screen_brightness">屏幕亮度</string>
-    <string name="pref_description_screen_brightness">给程序权限以便控制设备的亮度。更新设备亮度，然后点击按钮保存或更新数值。</string>
+    <string name="pref_description_screen_brightness">授予控制设备亮度权限。更新设备亮度，然后点击按钮保存或更新数值</string>
 
     <string name="toast_write_permissions_denied">写入设置权限被拒绝…</string>
     <string name="toast_write_permissions_granted">写入设置权限已获取…</string>
@@ -91,7 +91,7 @@
     <string name="title_hardware_acceleration">硬件加速</string>
     <string name="summary_hardware_acceleration">在某些设备上可用于加速网页和摄像头渲染</string>
 
-    <string name="mail_to_subject_text">物联仪表盘反馈</string>
+    <string name="mail_to_subject_text">物联仪表反馈</string>
     <string name="mail_subject_text">发送反馈：</string>
 
     <string name="thanks_mister_title">感谢，先生！</string>
@@ -104,7 +104,7 @@
     <string name="text_license_information">许可信息</string>
     <string name="text_github_code">GitHub 代码</string>
     <string name="pref_about_title">关于</string>
-    <string name="pref_brightness_button">捕获当前亮度值</string>
+    <string name="pref_brightness_button">捕获当前亮度</string>
     <string name="pref_sensor_list_summary">Below is a list of sensor data available on this device to be published as MQTT data.</string>
     <string name="pref_qr_code_summary">When active, will scan QR codes and publish the scanned code over MQTT.</string>
     <string name="pref_mqtt_settings_title">MQTT 设置</string>
@@ -117,10 +117,10 @@
     <string name="pref_mjpeg_streaming_title">MJPEG Streaming</string>
     <string name="pref_http_description">Control the application over HTTP using REST API calls. To find out which commands work with, review the help documentation.</string>
     <string name="pref_launchurl_summary">Enter the fully qualified URL for your home automation dashboard or path to file on the local device (requires storage access permission).</string>
-    <string name="pref_show_browser_activity_summary">显示浏览器加载进度。</string>
-    <string name="pref_prevent_sleep_summary">当启用时，屏幕将保持常亮。</string>
-    <string name="pref_start_boot_summary">系统启动后自动打开程序。</string>
-    <string name="pref_zoom_level_summary">浏览器缩放级别（体验）。</string>
+    <string name="pref_show_browser_activity_summary">显示浏览器加载进度</string>
+    <string name="pref_prevent_sleep_summary">启用时，屏幕将保持常亮</string>
+    <string name="pref_start_boot_summary">系统启动后自动打开程序</string>
+    <string name="pref_zoom_level_summary">浏览器缩放级别（体验）</string>
     <string name="pref_additional_settings_title">额外设置</string>
     <string name="pref_application_settings_title">程序设置</string>
     <string name="pref_face_detection_title">人脸识别</string>
@@ -149,12 +149,12 @@
     <string name="preference_tts_voice">TTS 声音</string>
     <string name="preference_tts">TTS 声音</string>
     <string name="preference_summary_tts">使用 TTS 说出 MQTT 消息的内容。</string>
-    <string name="pref_ignore_ssl_errors_summary">不要显示 SSL 错误警告。</string>
+    <string name="pref_ignore_ssl_errors_summary">不要显示 SSL 错误警告</string>
 
     <string name="error_mqtt_connection">The MQTT client connection wasn\'t established or was closed unexpectedly. Will try to reconnect.</string>
     <string name="error_mqtt_subscription">Couldn\'t subscribe to the MQTT topics, check the MQTT broker settings or your connection.</string>
-    <string name="text_android_channel_name">物联仪表盘运行中</string>
-    <string name="text_android_channel_description">物联仪表盘运行中…</string>
+    <string name="text_android_channel_name">物联仪表运行中</string>
+    <string name="text_android_channel_description">物联仪表运行中…</string>
     <string name="text_camera_front">前置</string>
     <string name="text_camera_back">后置</string>
     <string name="toast_camera_source_error">Could not start camera source, you may want to try again.</string>
@@ -186,22 +186,22 @@
     <string name="dialog_missing_webview_warning">This device does not have the WebView component installed, please install the component from the Google Play store.</string>
     <string name="error_missing_vision_lib">Missing appropriate libraries to process Face detection or Barcode reading. These features may not work on this device.</string>
     <string name="toast_empty_url">Url is empty…</string>
-    <string name="pref_browser_refresh_summary">当启用时，允许你下拉浏览器窗口来刷新页面。</string>
+    <string name="pref_browser_refresh_summary">启用时，允许下拉刷新页面</string>
     <string name="pref_browser_refresh_title">浏览器刷新</string>
     <string name="error_mqtt_exception">There was an error initializing the MQTT client, please check your settings.</string>
 
     <string name="preference_title_screen">显示设置</string>
     <string name="preference_title_screen_saver_settings">屏幕保护</string>
-    <string name="preference_summary_screen_saver_settings">When active, uses a built-in clock screen saver.</string>
-    <string name="preference_title_screen_saver">时钟屏幕保护</string>
-    <string name="preference_summary_screen_saver_settings_wallpaper">当启用时，使用 unsplash.it 来获取随机墙纸</string>
-    <string name="preference_title_screen_saver_wallpaper">物联仪表盘屏幕保护</string>
+    <string name="preference_summary_screen_saver_settings">启用时，使用内置时钟屏保</string>
+    <string name="preference_title_screen_saver">时钟屏保</string>
+    <string name="preference_summary_screen_saver_settings_wallpaper">启用时，使用 unsplash.it 来获取随机墙纸</string>
+    <string name="preference_title_screen_saver_wallpaper">物联仪表屏保</string>
 
-    <string name="preference_title_inactivity">开始屏幕保护于…</string>
-    <string name="preference_title_screensaver_dim">屏幕变暗…</string>
-    <string name="preference_summary_inactivity_seconds">不活动的屏幕保护激活后 %1$s 秒。</string>
-    <string name="preference_summary_inactivity_minutes">不活动的屏幕保护激活后 %1$s 分钟。</string>
-    <string name="preference_summary_dim_screensaver" formatted="false">当屏幕保护激活时变暗 %1$s%（需要屏幕亮度权限）。</string>
+    <string name="preference_title_inactivity">屏幕保护</string>
+    <string name="preference_title_screensaver_dim">屏幕变暗</string>
+    <string name="preference_summary_inactivity_seconds">不活动的屏保激活后 %1$s 秒。</string>
+    <string name="preference_summary_inactivity_minutes">不活动的屏保激活后 %1$s 分钟。</string>
+    <string name="preference_summary_dim_screensaver" formatted="false">当屏保激活时变暗百分之 %1$s（需要屏幕亮度权限）。</string>
 
     <string name="preference_camera_flip_title">旋转摄像头</string>
     <string name="preference_camera_flip_summary">Depending on your camera, you may need to rotate or flip the camera. Currently %1$s.</string>
@@ -210,12 +210,12 @@
 
     <string name="shortcut_settings_disabled_message">Shortcut disabled. You can enable in App settings</string>
     <string name="shortcut_settings_shortlabel">设置</string>
-    <string name="shortcut_settings_longlabel">打开物联仪表盘设置</string>
+    <string name="shortcut_settings_longlabel">打开物联仪表设置</string>
     <string name="shortcut_settings_id">shortcutForSettings</string>
     <string name="pref_summary_gecko">Use FireFox Gecko as the default browser (experimental).</string>
     <string name="pref_title_gecko">使用 FireFox 浏览器</string>
     <string name="toast_screen_brightness_captured">Your screen brightness level has been saved!</string>
-    <string name="pref_button_brightness_summary">Click to update and save the currently set device brightness as the value to return to after dimming.</string>
+    <string name="pref_button_brightness_summary">点击以便更新个保存设置当前设备亮度为屏幕变暗后的恢复值</string>
 
     <string-array name="flip_directions">
         <item>无</item>
