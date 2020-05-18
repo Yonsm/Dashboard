@@ -157,7 +157,7 @@
     <string name="text_android_channel_description">物联仪表运行中…</string>
     <string name="text_camera_front">前置</string>
     <string name="text_camera_back">后置</string>
-    <string name="toast_camera_source_error"无法启动摄像头源，你可能需要重试。</string>
+    <string name="toast_camera_source_error">无法启动摄像头源，你可能需要重试。</string>
     <string name="pref_user_agent_title">用户代理字符串（可选）</string>
     <string name="pref_user_agent_summary">设置浏览器用户代理，仅当必要时（否则请留空）</string>
     <string name="pref_camera_fps_title">摄像头帧率</string>
