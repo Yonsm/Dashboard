@@ -89,7 +89,7 @@
     <string name="menu_title_dashboard">仪表盘</string>
 
     <string name="title_wide_viewport">宽视图模式</string>
-    <string name="summary_wide_viewport">启用时，为移动设备网页视图模式（否则为桌面模式）</string>
+    <string name="summary_wide_viewport">启用时，支持 viewport 网页视图设置</string>
 
     <string name="title_hardware_acceleration">硬件加速</string>
     <string name="summary_hardware_acceleration">在某些设备上加速网页和摄像头渲染</string>
