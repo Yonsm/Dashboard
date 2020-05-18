@@ -46,7 +46,7 @@ constructor(private val context: Context, private val sharedPreferences: SharedP
         }
 
     var cameraRotate: Float
-        get() = this.sharedPreferences.getString(PREF_CAMERA_ROTATE, "0f").toFloat()
+        get() = this.sharedPreferences.getString(PREF_CAMERA_ROTATE, "0f")!!.toFloat()
         set(value) = this.sharedPreferences.edit().putString(PREF_CAMERA_ROTATE, value.toString()).apply()
 
     var appLaunchUrl: String
