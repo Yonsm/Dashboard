@@ -208,13 +208,13 @@
     <string name="error_no_web_browser">您没有可以打开网页链接的应用程序。</string>
     <string name="toast_connect_retry">重试连接中…</string>
 
-    <string name="shortcut_settings_disabled_message">Shortcut disabled. You can enable in App settings</string>
+    <string name="shortcut_settings_disabled_message">快捷方式已禁用。你可以在应用程序设置中启用它。</string>
     <string name="shortcut_settings_shortlabel">设置</string>
     <string name="shortcut_settings_longlabel">打开物联仪表设置</string>
     <string name="shortcut_settings_id">shortcutForSettings</string>
     <string name="pref_summary_gecko">使用 FireFox Gecko 作为默认浏览器（体验）</string>
     <string name="pref_title_gecko">使用 FireFox 浏览器</string>
-    <string name="toast_screen_brightness_captured">Your screen brightness level has been saved!</string>
+    <string name="toast_screen_brightness_captured">显示屏亮度级别易保存！</string>
     <string name="pref_button_brightness_summary">设置当前设备亮度为屏幕变暗后的恢复亮度</string>
 
     <string-array name="flip_directions">
