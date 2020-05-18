@@ -235,7 +235,9 @@ class BrowserActivityNative : BrowserActivity() {
         webSettings?.allowContentAccess = true
         webSettings?.setSupportZoom(true)
         webSettings?.loadWithOverviewMode = true;
-        webSettings?.useWideViewPort = true;
+        if (configuration.wideViewport) {
+            webSettings?.useWideViewPort = true;
+        }
 
         if(!TextUtils.isEmpty(userAgent)) {
             webSettings?.userAgentString = userAgent

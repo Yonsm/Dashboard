@@ -57,6 +57,12 @@
             android:title="@string/title_setting_test_zoomlevel"/>
 
         <SwitchPreference
+            android:defaultValue="@string/default_wide_veiwport_value"
+            android:key="@string/key_wide_veiwport_enabled"
+            android:title="@string/title_wide_veiwport"
+            android:summary="@string/summary_wide_veiwport"/>
+
+        <SwitchPreference
             android:defaultValue="@string/default_hardware_accelerated_value"
             android:key="@string/key_hadware_accelerated_enabled"
             android:title="@string/title_hardware_acceleration"

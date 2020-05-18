@@ -199,6 +199,10 @@ constructor(private val context: Context, private val sharedPreferences: SharedP
         get() = getBoolPref(R.string.key_setting_sensors_enabled,
                 R.string.default_setting_sensors_value)
 
+    val wideViewport: Boolean
+        get() = getBoolPref(R.string.key_wide_viewport_enabled,
+                R.string.default_wide_viewport_value)
+
     val hardwareAccelerated: Boolean
         get() = getBoolPref(R.string.key_hadware_accelerated_enabled,
                 R.string.default_hardware_accelerated_value)

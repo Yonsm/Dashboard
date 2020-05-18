@@ -55,6 +55,7 @@ class SettingsFragment : BaseSettingsFragment() {
     lateinit var screenUtils: ScreenUtils
 
     private var openOnBootPreference: SwitchPreference? = null
+    private var wideViewport: SwitchPreference? = null
     private var hadwareAcceleration: SwitchPreference? = null
     private var preventSleepPreference: SwitchPreference? = null
     private var browserActivityPreference: SwitchPreference? = null
@@ -162,6 +163,7 @@ class SettingsFragment : BaseSettingsFragment() {
         preventSleepPreference = findPreference<SwitchPreference>(getString(R.string.key_setting_app_preventsleep)) as SwitchPreference
         browserActivityPreference = findPreference<SwitchPreference>(getString(R.string.key_setting_app_showactivity)) as SwitchPreference
         openOnBootPreference = findPreference<SwitchPreference>(getString(R.string.key_setting_android_startonboot)) as SwitchPreference
+        wideViewport = findPreference<SwitchPreference>(getString(R.string.key_hadware_accelerated_enabled)) as SwitchPreference
         hadwareAcceleration = findPreference<SwitchPreference>(getString(R.string.key_hadware_accelerated_enabled)) as SwitchPreference
         browserRefreshPreference = findPreference<SwitchPreference>(getString(R.string.key_pref_browser_refresh)) as SwitchPreference
         clockSaverPreference = findPreference<SwitchPreference>(getString(R.string.key_screensaver)) as SwitchPreference
@@ -175,6 +177,7 @@ class SettingsFragment : BaseSettingsFragment() {
         bindPreferenceSummaryToValue(preventSleepPreference!!)
         bindPreferenceSummaryToValue(browserActivityPreference!!)
         bindPreferenceSummaryToValue(openOnBootPreference!!)
+        bindPreferenceSummaryToValue(wideViewport!!)
         bindPreferenceSummaryToValue(hadwareAcceleration!!)
         bindPreferenceSummaryToValue(browserHeaderPreference!!)
         bindPreferenceSummaryToValue(clockSaverPreference!!)
