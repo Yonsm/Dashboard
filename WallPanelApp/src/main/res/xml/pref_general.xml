@@ -57,10 +57,10 @@
             android:title="@string/title_setting_test_zoomlevel"/>
 
         <SwitchPreference
-            android:defaultValue="@string/default_wide_veiwport_value"
-            android:key="@string/key_wide_veiwport_enabled"
-            android:title="@string/title_wide_veiwport"
-            android:summary="@string/summary_wide_veiwport"/>
+            android:defaultValue="@string/default_wide_viewport_value"
+            android:key="@string/key_wide_viewport_enabled"
+            android:title="@string/title_wide_viewport"
+            android:summary="@string/summary_wide_viewport"/>
 
         <SwitchPreference
             android:defaultValue="@string/default_hardware_accelerated_value"
