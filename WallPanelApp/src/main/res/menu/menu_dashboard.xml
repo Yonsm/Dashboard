@@ -19,7 +19,7 @@
     <item
         android:id="@+id/action_settings"
         app:showAsAction="ifRoom"
-        android:icon="@drawable/ic_dashboard"
+        android:icon="@drawable/ic_dashboard_white"
         android:title="@string/menu_title_dashboard">
     </item>
 </menu>
