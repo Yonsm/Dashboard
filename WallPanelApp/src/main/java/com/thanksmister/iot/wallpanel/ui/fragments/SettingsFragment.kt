@@ -102,6 +102,7 @@ class SettingsFragment : BaseSettingsFragment() {
         if ((activity as SettingsActivity).supportActionBar != null) {
             (activity as SettingsActivity).supportActionBar!!.setDisplayHomeAsUpEnabled(true)
             (activity as SettingsActivity).supportActionBar!!.setDisplayShowHomeEnabled(true)
+            (activity as SettingsActivity).supportActionBar!!.setHomeAsUpIndicator(R.drawable.ic_exit)
             (activity as SettingsActivity).supportActionBar!!.title = (getString(R.string.title_settings))
         }
     }
@@ -208,29 +209,29 @@ class SettingsFragment : BaseSettingsFragment() {
 
 
         try {
-            cameraPreference!!.onPreferenceClickListener = Preference.OnPreferenceClickListener { preference ->
+            cameraPreference!!.onPreferenceClickListener = Preference.OnPreferenceClickListener { _ ->
                 view.let { Navigation.findNavController(it).navigate(R.id.camera_action) }
                 false
             }
-            mqttPreference!!.onPreferenceClickListener = Preference.OnPreferenceClickListener { preference ->
+            mqttPreference!!.onPreferenceClickListener = Preference.OnPreferenceClickListener { _ ->
                 view.let { Navigation.findNavController(it).navigate(R.id.mqtt_action) }
                 false
             }
-            httpPreference!!.onPreferenceClickListener = Preference.OnPreferenceClickListener { preference ->
+            httpPreference!!.onPreferenceClickListener = Preference.OnPreferenceClickListener { _ ->
                 view.let { Navigation.findNavController(it).navigate(R.id.http_action) }
                 false
             }
-            sensorsPreference!!.onPreferenceClickListener = Preference.OnPreferenceClickListener { preference ->
+            sensorsPreference!!.onPreferenceClickListener = Preference.OnPreferenceClickListener { _ ->
                 view.let { Navigation.findNavController(it).navigate(R.id.sensors_action) }
                 false
             }
 
-            aboutPreference!!.onPreferenceClickListener = Preference.OnPreferenceClickListener { preference ->
+            aboutPreference!!.onPreferenceClickListener = Preference.OnPreferenceClickListener { _ ->
                 view.let { Navigation.findNavController(it).navigate(R.id.about_action) }
                 false
             }
 
-            brightnessPreference!!.onPreferenceClickListener = Preference.OnPreferenceClickListener { preference ->
+            brightnessPreference!!.onPreferenceClickListener = Preference.OnPreferenceClickListener { _ ->
                 screenUtils.setScreenBrightnessLevels()
                 Toast.makeText(requireContext(), getString(R.string.toast_screen_brightness_captured), Toast.LENGTH_SHORT).show()
                 false
