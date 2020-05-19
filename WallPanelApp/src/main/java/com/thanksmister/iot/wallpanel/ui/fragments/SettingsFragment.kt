@@ -102,7 +102,6 @@ class SettingsFragment : BaseSettingsFragment() {
         if ((activity as SettingsActivity).supportActionBar != null) {
             (activity as SettingsActivity).supportActionBar!!.setDisplayHomeAsUpEnabled(true)
             (activity as SettingsActivity).supportActionBar!!.setDisplayShowHomeEnabled(true)
-            (activity as SettingsActivity).supportActionBar!!.setHomeAsUpIndicator(R.drawable.ic_exit)
             (activity as SettingsActivity).supportActionBar!!.title = (getString(R.string.title_settings))
         }
     }
@@ -299,5 +298,15 @@ class SettingsFragment : BaseSettingsFragment() {
     private fun launchWriteSettings() {
         val intent = Intent(Settings.ACTION_MANAGE_WRITE_SETTINGS, Uri.parse("package:${requireActivity().applicationContext.packageName}"))
         startActivityForResult(intent, 200)
+    }
+
+    override fun onPause() {
+        super.onPause()
+        (activity as SettingsActivity).supportActionBar!!.setHomeAsUpIndicator(R.drawable.ic_back)
+    }
+
+    override fun onResume() {
+        super.onResume()
+        (activity as SettingsActivity).supportActionBar!!.setHomeAsUpIndicator(R.drawable.ic_exit)
     }
 }
