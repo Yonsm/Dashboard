@@ -217,7 +217,7 @@
     <string name="shortcut_settings_id">shortcutForSettings</string>
     <string name="pref_summary_gecko">使用 FireFox Gecko 作为默认浏览器（体验）</string>
     <string name="pref_title_gecko">使用 FireFox 浏览器</string>
-    <string name="toast_screen_brightness_captured">显示屏亮度级别易保存！</string>
+    <string name="toast_screen_brightness_captured">显示屏亮度级已保存！</string>
     <string name="pref_button_brightness_summary">设置当前设备亮度为屏幕变暗后的恢复亮度</string>
 
     <string-array name="flip_directions">

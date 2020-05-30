@@ -43,7 +43,7 @@
     <string name="key_setting_mqtt_serverport">setting_mqtt_serverport</string>
     <string name="default_setting_mqtt_serverport">1883</string>
     <string name="key_setting_mqtt_servername">setting_mqtt_servername</string>
-    <string name="default_setting_mqtt_servername">hass</string>
+    <string name="default_setting_mqtt_servername">HASS</string>
     <string name="key_setting_mqtt_enabled">setting_mqtt_enabled</string>
     <string name="key_setting_mqtt_tls_enabled">setting_mqtt_tls_enabled</string>
     <string name="default_setting_mqtt_enabled">false</string>
@@ -91,7 +91,7 @@
     <string name="key_setting_use_gecko">setting_use_gecko</string>
     <string name="default_setting_app_preventsleep">true</string>
     <string name="key_setting_app_launchurl">setting_app_launchurl</string>
-    <string name="default_setting_app_launchurl">https://hass:8123/local/dash.html</string>
+    <string name="default_setting_app_launchurl">https://HASS:8123/local/dash.html</string>
     <string name="default_setting_app_deviceid">dashboard</string>
     <string name="key_setting_app_preventsleep">setting_app_preventsleep</string>
     <string name="key_settings_first_timed">setting_app_first_time</string>
